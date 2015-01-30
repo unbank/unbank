@@ -1,0 +1,108 @@
+nav {
+  margin-left: 55%;
+  float: right;
+  right: 20%;
+  display: inline-block;
+
+}
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+  right:20%;
+
+}
+
+.nav li {
+  display: inline;
+}
+
+
+/*MODS AND WHATNOT */
+
+.row img{
+  border: none;
+}
+
+/*logo stuff */
+
+@media screen and (orientation: portrait) {
+  img.ri { max-width: 15%; }
+}
+
+@media screen and (orientation: landscape) {
+  img.ri { max-height: 10%; }
+}
+
+img.ri {
+  position: absolute;
+  margin-left: -10%;
+  border-radius: 3px;
+}
+
+/*End logo stuff*/
+
+#pretzel-video {
+ /* position: relative;
+    height: 500px;
+    width: 500%;
+    bottom: 0;
+ */
+  top: 100px;
+  padding-left: -500px;
+  padding-right: -500px;
+  clear: both;
+  overflow: hidden;
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+
+}
+
+video {
+  display: inline-block;
+}
+
+.p1-hero-wrapper-shift-with-hiw {
+  margin-bottom: 15%;
+}
+
+@media (max-width: 1099px) {
+  #pretzel-video {
+    height: 100%;
+    width: auto
+  }
+}
+
+#hero {
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden
+}
+
+.p1-hero-wrapper {
+  position: relative;
+  height: 600px
+}
+
+@media (max-width: 767px) {
+  .p1-hero-wrapper {
+    height: 400px
+  }
+} /*think this goes here at least */
+
+
+
+
+
+
+
+/*END MODS AND WHATNOT */
+

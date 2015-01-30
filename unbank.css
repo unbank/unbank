@@ -1,0 +1,130 @@
+nav {
+  margin-left: 55%;
+  float: right;
+  right: 20%;
+  display: inline-block;
+
+}
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+  right:20%;
+
+}
+
+.nav li {
+  display: inline;
+  right: 50%;
+}
+
+#pretzel-video { /* Took out the orig image and moving it */
+  height: 500px;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 100px;
+  width: 500%;
+  padding-left: -200px;
+  padding-right: -200px;
+  clear: both;
+  overflow: hidden;
+}
+
+video {
+  display: inline-block;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+
+
+/*MODS AND WHATNOT */
+
+
+
+
+
+.locations {
+  clear: both;
+  float: left;
+
+}
+
+.locations ul {
+  list-style-type: none;
+}
+
+.testimonials {
+  float: left;
+}
+
+.language-button{
+  margin-right: -25%;
+  position: relative;
+  border-radius: 3px;
+
+}
+
+.row img{
+  border: none;
+}
+
+/*Maximum viewport */
+
+@media screen and (orientation: portrait) {
+  img.ri { max-width: 15%; }
+}
+
+@media screen and (orientation: landscape) {
+  img.ri { max-height: 10%; }
+}
+
+img.ri {
+  position: absolute;
+  margin-left: -10%;
+  border-radius: 3px;
+}
+
+#pretzel-video {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+video {
+  display: inline-block;
+}
+
+/*END MODS AND WHATNOT */
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}

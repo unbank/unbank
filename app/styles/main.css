@@ -1,0 +1,1032 @@
+/* Space out content a bit */
+body {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 10px; /*change*/
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 150%) {
+  .container {
+    max-width: 160%; /*changed from like 730 px to 1% */
+  }
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0;
+  margin: 0;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+body {
+  width: 100%;
+}
+
+/*gonna have to edit this!!!!!!!!!!!! */
+#pretzel-video {
+  bottom: 0;
+  position: absolute;
+  width: 100%
+}
+
+.p1-hero-wrapper {
+  position: relative;
+  height: 600px
+}
+
+#hero {
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden
+}
+
+.panel-contrast p a {
+  color: #fff;
+  text-decoration: underline
+}
+
+.panel-contrast p a:hover {
+  color: #e4f5f5
+}
+
+.panel-babu-muted {
+  background-color: #79cccd
+}
+
+.text-white {
+  color: white
+}
+
+.panel-hackberry {
+  background-color: #7b0051
+}
+
+.form-inline {
+  display: inline
+}
+
+.search-button {
+  vertical-align: baseline
+}
+
+.has-smart-banner #tagline {
+  top: 95px
+}
+
+#slideshow, #belong-anywhere-slideshow {
+  margin: 0
+}
+
+#slideshow li, #belong-anywhere-slideshow li {
+  position: absolute;
+  z-index: -5;
+  height: 100%;
+  width: 100%;
+  overflow: hidden
+}
+
+#slideshow li.next, #belong-anywhere-slideshow li.next {
+  z-index: 90
+}
+
+#slideshow li.active, #belong-anywhere-slideshow li.active {
+  display: block;
+  z-index: 100
+}
+
+#slideshow li {
+  background: #000
+}
+
+#slideshow li img {
+  position: absolute;
+  bottom: 0
+}
+
+#slideshow li.next > img {
+  -webkit-animation: fadein 50ms 1 ease-in;
+  -moz-animation: fadein 50ms 1 ease-in
+}
+
+#slideshow li.next.right > img {
+  -webkit-animation: fadein 50ms 1 ease-in;
+  -moz-animation: fadein 50ms 1 ease-in
+}
+
+#belong-anywhere-container {
+  height: 600px;
+  width: 100%;
+  position: relative;
+  overflow: hidden
+}
+
+#belong-anywhere-container .slideshow-scroll-next {
+  right: 20px;
+  transition: right 1000ms ease
+}
+
+#belong-anywhere-container .slideshow-scroll-next.hidden {
+  right: -40px
+}
+
+#belong-anywhere-container .slideshow-scroll-next:hover {
+  color: #fff
+}
+
+#belong-anywhere-container .slideshow-scroll-prev {
+  left: 20px;
+  transition: left 1000ms ease
+}
+
+#belong-anywhere-container .slideshow-scroll-prev.hidden {
+  left: -40px
+}
+
+#belong-anywhere-container .slideshow-scroll-prev:hover {
+  color: #fff
+}
+
+.slideshow-scroll {
+  opacity: 0.7;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: alpha(opacity=70);
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  position: absolute;
+  margin-top: -25px;
+  top: 50%;
+  z-index: 161;
+  color: white
+}
+
+.slideshow-scroll .icon-chevron-left, .slideshow-scroll .icon-chevron-right {
+  font-weight: bold
+}
+
+.slideshow-scroll:hover {
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100)
+}
+
+.faded-out {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0)
+}
+
+.location-wrapper {
+  position: relative;
+  display: inline-block
+}
+
+#enter_location_error_message {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.8);
+  -moz-border-radius: 0 0 3px 3px;
+  -webkit-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px
+}
+
+.search-area {
+  position: relative;
+  top: 50px;
+  height: 550px;
+  width: 100%
+}
+
+.search-area .checkin, .search-area .checkout {
+  width: 130px
+}
+
+.intro-area {
+  padding-bottom: 102px
+}
+
+#location {
+  width: 290px
+}
+
+.uppercase {
+  text-transform: uppercase
+}
+
+#transition_helper {
+  position: relative;
+  width: 100%
+}
+
+body.p1 .flash-container {
+  position: absolute;
+  right: 50px;
+  left: 50px;
+  top: 75px;
+  z-index: 1001
+}
+
+.location {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0
+}
+
+.checkin, .checkout, #guests {
+  border-radius: 0
+}
+
+#search_form input, #guests, #submit_location {
+  height: 44px
+}
+
+#submit_location {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0
+}
+
+.fake-search-field {
+  background-color: #fff
+}
+
+.bottom-search-area {
+  background: #000;
+  background: rgba(0, 0, 0, 0.6);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 30px;
+  padding-bottom: 30px
+}
+
+.btn-semi-transparent {
+  background: rgba(255, 255, 255, 0.5);
+  border-style: none
+}
+
+.btn-semi-transparent:hover {
+  background-color: rgba(0, 0, 0, 0.35)
+}
+
+.how-it-works-section {
+  height: 662px;
+  width: 100%
+}
+
+.how-it-works-section.overlay {
+  position: absolute;
+  top: -750px;
+  z-index: 1000;
+  padding-top: 40px
+}
+
+.how-it-works-section .panel-close {
+  position: relative;
+  right: 30px;
+  color: #007a87;
+  opacity: 0.6
+}
+
+.how-it-works-section .panel-close:hover {
+  opacity: 1
+}
+
+#hiw-steps {
+  height: 310px
+}
+
+.p1 #hiw-steps-lazy {
+  display: none
+}
+
+.hiw-step {
+  height: 310px;
+  background: url(https://a0.muscache.com/airbnb/static/landing_pages/pretzel/how_it_works-05170c93f9abdde98ec4b0c9b6836a3a.png) center 0 no-repeat
+}
+
+.hiw-step.step2 {
+  background-position: center -310px
+}
+
+.hiw-step.step3 {
+  background-position: center -620px
+}
+
+.responsive-hiw-step-wrapper {
+  max-width: 283px;
+  margin: 0 auto
+}
+
+.responsive-hiw-step {
+  background: url(https://a0.muscache.com/airbnb/static/landing_pages/pretzel/how_it_works-05170c93f9abdde98ec4b0c9b6836a3a.png) 0 0 no-repeat;
+  padding-bottom: 109.54064%;
+  background-size: 100%
+}
+
+.responsive-hiw-step.step2 {
+  background-position: 0 50%
+}
+
+.responsive-hiw-step.step3 {
+  background-position: 0 100%
+}
+
+.discovery-card-wrapper, #weekend-recommendations .carousel-view, .discovery-card {
+  height: 344px
+}
+
+.discovery-card-blank {
+  border-color: #fff
+}
+
+.discovery-loading-icon {
+  color: #dce0e0
+}
+
+.discovery-card {
+  background-color: #f5f5f5;
+  background-size: cover;
+  background-position: center;
+  position: relative
+}
+
+.discovery-listing {
+  opacity: 0.9
+}
+
+@media (min-width: 768px) and (max-width: 1099px) {
+  .col-switch {
+    margin-top: -739px
+  }
+}
+
+@media (max-width: 1099px) {
+  #pretzel-video {
+    height: 100%;
+    width: auto
+  }
+}
+
+.fullscreen-mode {
+  overflow: hidden;
+  height: 100%
+}
+
+.fullscreen-video-player {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1001;
+  background-color: #000;
+  transition: opacity 800ms ease
+}
+
+.fullscreen-video-player.hidden {
+  opacity: 0
+}
+
+.media-button:hover {
+  cursor: pointer
+}
+
+#play-button-belo, #play-button-belong {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: inline-block;
+  width: 100px;
+  height: 100px
+}
+
+#close-fullscreen-belo, #close-fullscreen-belong {
+  cursor: pointer;
+  position: absolute;
+  color: #82888a;
+  right: 50px;
+  top: 50px;
+  font-size: 20px;
+  text-decoration: none
+}
+
+#belo-screen {
+  background-size: cover;
+  position: relative
+}
+
+#belo-screen .slideshow-scroll {
+  font-size: 48px;
+  color: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  margin-top: -25px;
+  top: 50%
+}
+
+#belong-anywhere {
+  background-size: cover;
+  position: relative;
+  background-position: center
+}
+
+#belong-anywhere .slideshow-scroll {
+  font-size: 48px;
+  color: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  margin-top: -25px;
+  top: 50%
+}
+
+.belong-anywhere-slideshow-loaded #belo-screen {
+  background-image: url(https://a2.muscache.com/airbnb/static/homepages/belo-vid-65693e30755669188d55eb2c622503cb.jpg)
+}
+
+.belong-anywhere-slideshow-loaded #belong-anywhere {
+  background-image: url(https://a2.muscache.com/airbnb/static/homepages/belong-vid-7e730d7c702ce4bbd2ad2f2dc1a300aa.jpg)
+}
+
+#belo-play-button {
+  height: 100px;
+  position: relative;
+  display: inline-block;
+  transition: bottom 1000ms ease;
+  bottom: 0;
+  cursor: pointer
+}
+
+#belo-play-button.hidden {
+  bottom: -270px
+}
+
+.icon-video-play, .icon-video-pause {
+  font-size: 100px;
+  color: rgba(255, 255, 255, 0.7)
+}
+
+.icon-video-play:hover, .icon-video-pause:hover {
+  color: #fff
+}
+
+#create-slide {
+  background-color: #ffb400;
+  padding-top: 94px
+}
+
+#create-slide .create-hero {
+  display: block;
+  max-width: 1378px
+}
+
+#create-slide .create-body {
+  width: 1378px;
+  left: 328px;
+  position: relative
+}
+
+#create-slide .create-text {
+  margin-left: 44px
+}
+
+#create-slide .text-opaque {
+  opacity: 0.7
+}
+
+.community-container {
+  max-width: 1400px
+}
+
+.community-container .panel-image {
+  height: 492px;
+  position: relative
+}
+
+.community-container .panel-image a {
+  color: #fff;
+  text-decoration: underline
+}
+
+.community-container li {
+  opacity: 1;
+  top: 0;
+  transition: opacity 0.8s ease, top 800ms ease
+}
+
+.community-container li.hidden {
+  opacity: 0;
+  top: 20px
+}
+
+.community-container li.transition-delay-100 {
+  -webkit-transition-delay: 100ms;
+  transition-delay: 100ms
+}
+
+.community-container li.transition-delay-400 {
+  -webkit-transition-delay: 400ms;
+  transition-delay: 400ms
+}
+
+.community-container li.transition-delay-700 {
+  -webkit-transition-delay: 700ms;
+  transition-delay: 700ms
+}
+
+.community-container li.transition-delay-1000 {
+  -webkit-transition-delay: 1000ms;
+  transition-delay: 1000ms
+}
+
+.background-create-card {
+  background-color: #00d1c1
+}
+
+.background-ols-card {
+  background-image: url(https://a2.muscache.com/airbnb/static/homepages/ols-df529f5834fc47471ac0ae828583e250.jpg);
+  background-size: cover
+}
+
+.background-ebisu {
+  background-color: #ffaa91
+}
+
+.background-lima {
+  background-color: #8ce071
+}
+
+.card-body {
+  margin: -1px;
+  padding: 40px
+}
+
+.create-img {
+  max-width: 230px;
+  margin-left: 5px
+}
+
+.background-share-card {
+  background: #8ce071 url(https://a0.muscache.com/airbnb/static/homepages/instagram-84b689902e8a9ecebef06e112ad01a41.jpg) no-repeat center top;
+  background-size: contain
+}
+
+.card-header {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0
+}
+
+.card-header-tag {
+  display: inline-block;
+  padding: 10px 30px;
+  min-width: 120px
+}
+
+.community-container .community-photo-card {
+  background-size: cover;
+  background-position: 50% 25%
+}
+
+.background-ols-map-card {
+  background-image: url(https://a0.muscache.com/airbnb/static/homepages/ols-map-2114142d78be39e4c3f42b3b579867f5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center
+}
+
+.background-hosting-card {
+  background-image: url(https://a0.muscache.com/airbnb/static/homepages/hosting-8fec1d4e5d1dde4d267f6480654346f2.jpg);
+  background-size: cover
+}
+
+.hosting-card .card-header-tag {
+  background-color: #7b0051
+}
+
+.background-traveling-card {
+  background-image: url(https://a0.muscache.com/airbnb/static/homepages/traveling-73ba2942dae0a033a2b14388527214c4.jpg);
+  background-size: cover
+}
+
+.traveling-card .card-header-tag {
+  background-color: #007a87
+}
+
+.icon-alipay {
+  background-image: url(https://a1.muscache.com/airbnb/static/homepages/alipay-ea9c154ab4f0cbc1567493b14eff50f8.png);
+  width: 120px;
+  height: 55px;
+  background-size: 100% auto;
+  display: inline-block
+}
+
+.darken-on-hover-container {
+  background: #000;
+  padding: 0
+}
+
+.darken-on-hover-container .darken-on-hover {
+  -webkit-transition: opacity ease-in-out 200ms;
+  -moz-transition: opacity ease-in-out 200ms;
+  -o-transition: opacity ease-in-out 200ms;
+  transition: opacity ease-in-out 200ms
+}
+
+.darken-on-hover-container u {
+  text-decoration: none;
+  -webkit-transition: text-decoration ease-in-out 200ms;
+  -moz-transition: text-decoration ease-in-out 200ms;
+  -o-transition: text-decoration ease-in-out 200ms;
+  transition: text-decoration ease-in-out 200ms
+}
+
+.darken-on-hover-container:hover u {
+  text-decoration: underline
+}
+
+.darken-on-hover-container:hover .darken-on-hover {
+  opacity: 0.85
+}
+
+.strong {
+  font-weight: bold
+}
+
+.weibo-logo {
+  display: inline-block;
+  width: 102px;
+  height: 35px;
+  background: url(https://a0.muscache.com/airbnb/static/landing_pages/c1/weibo-logo.png) 0 0 no-repeat
+}
+
+.media-round.pull-up {
+  margin-top: -80px
+}
+
+.sliding-carousel .carousel-item {
+  padding-right: 25px
+}
+
+.sliding-carousel .carousel-chevron {
+  top: 150px
+}
+
+.sliding-carousel .carousel-chevron.left {
+  left: -60px
+}
+
+.sliding-carousel .carousel-chevron.right {
+  right: -60px
+}
+
+a.mobile-discovery-arrow {
+  position: absolute;
+  display: block;
+  left: 0;
+  right: 0;
+  text-align: center;
+  text-decoration: none
+}
+
+a.mobile-discovery-arrow:hover {
+  text-decoration: none
+}
+
+.ols-banner {
+  cursor: pointer;
+  background: #010C12 url(https://a0.muscache.com/airbnb/static/homepages/ols-banner-a70958fba289d47e0fd718b427a7bf52.jpg) right bottom no-repeat
+}
+
+@media (min-width: 768px) and (max-width: 1099px) {
+  #location {
+    width: 220px
+  }
+}
+
+@media (min-width: 1067px) and (max-width: 1199px) {
+  #slideshow li {
+    background: #000
+  }
+
+  #slideshow li img {
+    position: absolute;
+    bottom: 0;
+    width: 100%
+  }
+}
+
+@media (max-width: 1067px) {
+  #slideshow li {
+    background: #000
+  }
+
+  #slideshow li img {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: auto
+  }
+}
+
+@media (max-width: 400px) {
+  .ols-banner {
+    background: #010C12 url(https://a2.muscache.com/airbnb/static/homepages/ols-banner-mobile-9f2113e7254e310648ebcb63203459f4.jpg) bottom center no-repeat
+  }
+
+  .ols-banner .panel-body {
+    padding-bottom: 40px
+  }
+}
+
+@media (max-width: 767px) {
+  .p1-hero-wrapper {
+    height: 400px
+  }
+
+  .intro-area {
+    padding-bottom: 252px
+  }
+
+  body {
+    width: 100%;
+    margin:0;
+  }
+
+  .panel-dark {
+    border: 0
+  }
+
+  .page-container, .page-container-responsive {
+    padding-left: 5%;
+    padding-right: 5%
+  }
+
+  .discovery-tiles .rm-padding-sm {
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px
+  }
+
+  .discovery-section {
+    padding: 0
+  }
+
+  .page-container-no-padding {
+    padding-left: 0;
+    padding-right: 0
+  }
+}
+
+@media (max-width: 767px) {
+  .how-it-works-section {
+    height: 1500px
+  }
+}
+
+@media (min-width: 768px) {
+  .ols-banner .panel-body {
+    padding: 25px
+  }
+}
+
+.menu {
+  box-sizing: border-box;
+  -moz-border-radius-bottomright: 2px;
+  -webkit-border-bottom-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  -moz-border-radius-bottomleft: 2px;
+  -webkit-border-bottom-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border: 1px solid #c4c4c4;
+  background: #fff;
+  font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: auto
+}
+
+.menu-heading {
+  font-weight: bold;
+  color: #fff;
+  background: #CECECE;
+  text-align: center;
+  margin: 0;
+  line-height: 1.5;
+  letter-spacing: 1px
+}
+
+.menu-option {
+  display: block;
+  cursor: default;
+  padding: 0.4em 0.6em
+}
+
+.menu-option + .menu-option {
+  border-top: 1px solid #E6E6E6
+}
+
+.menu-option:focus, .menu-option.focused {
+  outline: 0;
+  color: #fff;
+  background: #ff5a5f
+}
+
+.search-form-input-wrapper {
+  display: inline-block;
+  position: relative
+}
+
+.search-form-input-wrapper .menu {
+  text-align: left;
+  -moz-border-radius-bottomright: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  -webkit-box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.2);
+  box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.2);
+  border-top: none;
+  position: absolute;
+  z-index: 99;
+  top: 100%;
+  width: 100%
+}
+
+.search-form-input-wrapper .location.menu-open {
+  -moz-border-radius-bottomright: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px
+}
+
+.search-form-input-wrapper .menu-option {
+  font-size: 14px;
+  line-height: 44px;
+  height: 44px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #c3c0c0;
+  padding-top: 0;
+  padding-bottom: 0
+}
+
+.search-form-input-wrapper .menu-option:focus *, .search-form-input-wrapper .menu-option.focused * {
+  color: #fff
+}
+
+.search-form-input-wrapper .search-locale {
+  color: #565a5c;
+  font-weight: bold
+}
+
+.search-form-input-wrapper .icon {
+  margin-left: 0.15em;
+  margin-right: 0.45em;
+  font-size: 24px;
+  vertical-align: -3px
+}
+
+.saved-search {
+  display: table;
+  width: 100%;
+  table-layout: fixed
+}
+
+.saved-search .search-location, .saved-search .saved-search-date, .saved-search .saved-search-guests {
+  display: table-cell;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis
+}
+
+.saved-search .search-location {
+  width: 280px;
+  max-width: 280px
+}
+
+@media (min-width: 768px) and (max-width: 1099px) {
+  .saved-search .search-location {
+    width: 210px;
+    max-width: 210px
+  }
+}
+
+.saved-search .saved-search-date {
+  width: 260px;
+  max-width: 260px
+}
+
+.saved-search .saved-search-guests {
+  max-width: 30%;
+  padding-left: 10px
+}
+
+.saved-search .date-start, .saved-search .date-end, .saved-search .seperator {
+  display: inline-block;
+  padding-left: 10px
+}
+
+.saved-search .date-start {
+  width: 36%
+}
+
+.saved-search .seperator {
+  width: 14%;
+  text-overflow: none;
+  text-align: center
+}
+
+.input-placeholder-group {
+  position: relative;
+  display: inline-block
+}
+
+.location-suggestions {
+  background: #f5f5f5;
+  border-top: 1px solid #E6E6E6
+}
+
+.input-placeholder-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 11px;
+  padding-left: 11px;
+  padding-right: 11px;
+  font-size: 16px;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: text;
+  color: #82888a
+}
+
+

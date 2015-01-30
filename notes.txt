@@ -1,0 +1,108 @@
+TODO
+
+C:\Users\Nunya\Desktop\unbank\app
+
+LANGUAGES POP OUT
+LEARN POLYMER AND DO A GOOGLE MAP THING
+
+EMAIL CONTACT TO GET AN ATM (REQUEST ATM)
+JQUERY FADE IN LIKE LIBERTYX HAS
+
+GOOGLE SHEETS FOR LATER. NOW JUST HARDCODE IN LIKE THAT SITE DOES.
+
+bower install PolymerLabs/google-map --save (or may its one slash)
+
+
+lats and longs of 
+
+ADDRESSES FOR ATMS:
+
+5 CLINTON SQUARE ALBANY, NY         LAT: 42.654131 LONG: -73.750556
+764 10TH AVE NEW YORK, NY (HK)      LAT: 40.767204 LONG: -73.989689
+15 CHRISTOPHER STREET NEW YORK, NY  LAT: 40.7340225 LONG: -74.0005509
+
+49 Church St
+Burlington, VT 05401                LAT: 44.47952   LONG: -73.218447       05401
+
+516 Elm St
+Manchester, NH                      LAT: 42.9855964  LONG: -71.4634564     03101
+
+
+
+
+the video:
+
+5:54. Google Sheets.
+
+
+
+FIGURE OUT MAP
+
+use the fittomarkers property. 
+
+
+FONTS
+proxima-thin
+
+
+NOTES
+for the grunt server, you need to stop the process and move to another process. 
+Just switch to the directory that requires the server thing for the html to work.
+
+
+ADVANCED:
+
+AN ADMIN PANEL WHERE YOU CAN UPLOAD NEW PHOTOS AND CREATE CONTENT.
+
+
+NOW OPEN/HOURS 
+
+
+
+
+  <video loop="loop" preload="auto" id="pretzel-video">
+        <source src="//a0.muscache.com/airbnb/static/Croatia-P1-1.mp4" type='video/mp4'>
+        <source src="//a0.muscache.com/airbnb/static/Croatia-P1-0.webm" type='video/webm'>
+      </video>
+
+<video loop="loop" preload="auto" id="pretzel-video">
+        <source src="//a0.muscache.com/airbnb/static/Croatia-P1-1.mp4" type='video/mp4'>
+        <source src="//a0.muscache.com/airbnb/static/Croatia-P1-0.webm" type='video/webm'>
+      </video>
+
+
+
+
+
+API for Google Sheets
+Github
+mp4 video
+map stuff
+Sign Up/Login/locations
+language button if I get to it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
